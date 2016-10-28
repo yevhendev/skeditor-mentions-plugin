@@ -1,0 +1,60 @@
+.faces {
+    padding: 2px;
+    margin: 0px;
+    background: #eee;
+    border-radius: 1px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 1px #fff inset, 0 -1px 0px #ccc inset;
+}
+.faces-username {
+    box-shadow: 0 1px 1px #ddd inset;
+    border: 1px solid #cccccc;
+    border-radius: 1px;
+    background: #fff;
+    margin: 0 0 2px;
+    padding: 1px 2px;
+}
+.faces-username p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.faces .drpdwn {
+    position: absolute;
+    display: none;
+}
+
+.faces .drpdwn {
+    position: absolute;
+    display: none;
+}
+
+
+.faces ul.drpdwn {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #f1f1f1;
+}
+
+.faces ul.drpdwn li a {
+    display: block;
+    color: #000;
+    padding: 5px 5px;
+    text-decoration: none;
+    clear: both;
+}
+
+/* Change the link color on hover */
+.faces ul.drpdwn li a:hover, .faces ul.drpdwn li a.selected {
+    background-color: #555;
+    color: white;
+}
+.faces ul.drpdwn li a img {
+    width: 20px;
+    height: 20px;
+    display: block;
+    float: left;
+    padding: 2px;
+}
