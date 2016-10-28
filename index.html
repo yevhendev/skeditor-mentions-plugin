@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="node_modules/ckeditor/ckeditor.js"></script>
+    <script src="plugins/faces/plugin.js"></script>
+    <script src="node_modules/fuse.js/src/fuse.js"></script>
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="users.json" type="application/json"></script>
+    <style>
+
+    </style>
+</head>
+<body>
+<form>
+    <h1>Type @ to start selecting user</h1>
+    <textarea name="editor1" id="editor1" rows="80" cols="80">
+        This is my textarea to be replaced with CKEditor.
+    </textarea>
+    <script>
+
+
+        CKEDITOR.replace( 'editor1', {
+            extraPlugins: 'faces',
+            contentsCss: [
+                'plugins/faces/contents.css'
+            ],
+        });
+
+    </script>
+</form>
+</body>
+</html>
